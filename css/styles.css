@@ -1,0 +1,57 @@
+.body0
+{
+  font-size: 32px;
+  line-height:0px;
+        background: linear-gradient(
+          135deg,
+		   #ff0000,
+		   #b0b0ff,
+		  #8080ff,
+		  #4040ff,
+          #0000ff
+        );
+        background-size: 200% 200%;
+        -webkit-animation: gradient-move 15s ease alternate infinite;
+      }
+
+      @-webkit-keyframes gradient-move {
+        0% {
+          background-position: 100% 100%;
+        }
+        100% {
+          background-position: 0% 0%;
+        }
+      }
+
+
+.cr0{
+  text-align:center;
+  -webkit-animation-name: car0; /*动画名称*/
+  -webkit-animation-duration: 8s; /*动画持续时间*/
+  -webkit-animation-iteration-count: 1000; /*动画次数*/
+  -webkit-animation-delay: 0s; /*延迟时间*/
+}
+
+.b0{
+  border:0;
+}
+
+#if{
+  position:absolute;
+  display:flex;
+  top:1%;
+  left:26%;
+}
+
+#if1{
+  position:absolute;
+  display:flex;
+  top:1%;
+  left:1%;
+}
+
+.body1{
+  background-color:#00000000;
+}
+
+@-webkit-keyframes car0{};
